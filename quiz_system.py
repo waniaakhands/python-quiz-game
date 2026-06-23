@@ -89,7 +89,7 @@ if passw==a:
         
     #Q9
     ans9=input(f"ques9: How many fingers does a typical human have on one hand? \n enter your answer: ")   
-    if ans9.lower()== "five" or "5":
+    if ans9.lower() == "five" or "5":
         score+=1 # add points to the score variable
         print(f"correct,you got 1 point")
         print(f"your total score is {score} ")
